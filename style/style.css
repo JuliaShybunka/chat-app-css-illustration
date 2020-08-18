@@ -39,4 +39,18 @@ body {
 
 .app {
   padding-top: 150px;
+  display: flex;
+}
+
+.app-right {
+  max-width: 450px;
+}
+.app-right__title {
+  font-weight: 500;
+  color: #3e2753;
+  font-size: 2.5rem;
+}
+.app-right__text {
+  color: #a39daa;
+  line-height: 1.7rem;
 }

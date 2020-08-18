@@ -58,4 +58,18 @@ body {
 
 .app {
     padding-top: 150px;
+    display: flex;
+}
+
+.app-right {
+    max-width: 450px;
+    &__title {
+        font-weight: 500;
+        color: $veryDarkDesaturatedViolet;
+        font-size: 2.5rem;
+    }
+    &__text {
+        color: $darkGrayishViolet;
+        line-height: 1.7rem;
+    }
 }
