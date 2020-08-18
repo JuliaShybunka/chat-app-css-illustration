@@ -4,3 +4,39 @@ body {
   font-weight: 400;
   font-size: 16px;
 }
+
+.container {
+  width: 830px;
+  margin: 0 auto;
+}
+
+.content__inner {
+  position: relative;
+  overflow-x: hidden;
+}
+.content__inner::before {
+  position: absolute;
+  content: "";
+  width: 420px;
+  height: 80%;
+  background: linear-gradient(180deg, #ec96f8 0%, #8838ff 100%);
+  border-radius: 0px 0px 200px 200px;
+  left: -70px;
+  top: 0;
+  z-index: -1;
+}
+.content__inner::after {
+  position: absolute;
+  content: "";
+  width: 420px;
+  height: 80%;
+  background: #f5f3f7;
+  border-radius: 200px 200px 0px 0px;
+  right: -180px;
+  bottom: 0;
+  z-index: -1;
+}
+
+.app {
+  padding-top: 150px;
+}

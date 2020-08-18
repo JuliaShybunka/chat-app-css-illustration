@@ -23,3 +23,39 @@ body {
     font-weight: 400;
     font-size: 16px;
 }
+
+.container {
+    width: 830px;
+    margin: 0 auto;
+}
+
+.content__inner {
+    position: relative;
+    overflow-x: hidden;
+    &::before {
+        position: absolute;
+        content: "";
+        width: 420px;
+        height: 80%;
+        background: $gradientVertical;
+        border-radius: 0px 0px 200px 200px;
+        left: -70px;
+        top: 0;
+        z-index: -1;
+    }
+    &::after {
+        position: absolute;
+        content: "";
+        width: 420px;
+        height: 80%;
+        background: $lightGrayishViolet;
+        border-radius: 200px 200px 0px 0px;
+        right: -180px;
+        bottom: 0;
+        z-index: -1;
+    }
+}
+
+.app {
+    padding-top: 150px;
+}
