@@ -1,0 +1,25 @@
+// VARIABLES
+// Text
+$paleViolet: hsl(276, 100%, 81%);
+$moderateViolet:hsl(276, 55%, 52%);
+$desaturatedDarkViolet: hsl(271, 15%, 43%);
+$grayishBlue:hsl(206, 6%, 79%);
+$veryDarkDesaturatedViolet:hsl(271, 36%, 24%);
+$darkGrayishViolet:hsl(270, 7%, 64%);
+// Gradients
+$gradientHorizontal: linear-gradient(90deg, rgba(236, 150, 248, 1) 0%, rgba(136, 56, 255, 1) 100%);
+$gradientVertical:linear-gradient(180deg, rgba(236, 150, 248, 1) 0%, rgba(136, 56, 255, 1) 100%);
+$gradientDefault: rgb(236, 150, 248);
+// Secondary
+$white: hsl(0, 0%, 100%);
+$lightGrayishViolet: hsl(270, 20%, 96%);
+$veryDarkDesaturatedViolet: hsl(271, 36%, 24%);
+$veryLightMagenta: hsl(289, 100%, 72%);
+
+/* DEFAULT STYLE */
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
